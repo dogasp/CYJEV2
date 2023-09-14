@@ -1,0 +1,106 @@
+#pageDeGarde {
+    width: 100%;
+    position: relative;
+    background: url("../img/pageDeGarde-bg.png") center bottom no-repeat;
+    background-size: cover;
+    padding: 200px 0 120px 0;
+}
+
+@media (max-width: 991px) {
+    #pageDeGarde {
+        padding: 140px 0 60px 0;
+    }
+}
+
+@media (max-width: 574px) {
+    #pageDeGarde {
+        padding: 100px 0 20px 0;
+    }
+}
+
+#pageDeGarde .pageDeGarde-img {
+    width: 50%;
+    float: right;
+}
+
+@media (max-width: 991px) {
+    #pageDeGarde .pageDeGarde-img {
+        width: 80%;
+        float: none;
+        margin: 0 auto 25px auto;
+    }
+}
+
+#pageDeGarde .pageDeGarde-info {
+    width: 50%;
+    float: left;
+}
+
+@media (max-width: 991px) {
+    #pageDeGarde .pageDeGarde-info {
+        width: 80%;
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    #pageDeGarde .pageDeGarde-info {
+        width: 100%;
+    }
+}
+
+#pageDeGarde .pageDeGarde-info h2 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#pageDeGarde .pageDeGarde-info h2 span {
+    color: white;
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    #pageDeGarde .pageDeGarde-info h2 {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+}
+
+#pageDeGarde .pageDeGarde-info .btn-get-started, #pageDeGarde .pageDeGarde-info .btn-services {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fff;
+}
+
+#pageDeGarde .pageDeGarde-info .btn-get-started {
+    background: #007bff;
+    border: 2px solid #007bff;
+    color: #fff;
+}
+
+#pageDeGarde .pageDeGarde-info .btn-get-started:hover {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+}
+
+#pageDeGarde .pageDeGarde-info .btn-services {
+    border: 2px solid #fff;
+}
+
+#pageDeGarde .pageDeGarde-info .btn-services:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}

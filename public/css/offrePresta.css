@@ -1,0 +1,117 @@
+#offrePresta .section-header h3 {
+    padding-top: 120px;
+}
+
+#offrePresta h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#offrePresta img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    background-size: contain;
+}
+
+#offrePresta .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 15px;
+    height: 110vh;
+    /*1500px;*/
+}
+
+#offrePresta .card_image {
+    height: 40%;
+}
+
+#offrePresta .card {
+    background-color: white;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0px 14px 30px #888888;
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 1em;
+}
+
+#offrePresta .card_content {
+    padding: 1rem;
+    height: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#offrePresta .card_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    height: 20%;
+    /* margin-top: 20%; */
+}
+
+#offrePresta .card_text {
+    color: #4e4a67;
+    margin-bottom: 0px;
+    line-height: 1.5em;
+    height: 40%;
+}
+
+#offrePresta .bouton {
+    margin-top: 0px;
+    margin: 20px;
+}
+
+#offrePresta .card:hover {
+    box-shadow: 0px 14px 30px #00458f;
+}
+
+#offrePresta .btn {
+    display: block;
+    background: radial-gradient(circle, rgba(0, 117, 255, 1) 0%, rgba(0, 74, 153, 1) 74%);
+    border-radius: 50px;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 1s;
+    border: #00458f;
+    float: right;
+}
+
+#offrePresta .btn:hover {
+    color: #74b5fc;
+    outline-style: none;
+}
+
+@media (max-width: 1100px) {
+    #offrePresta .cards {
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 10px;
+        display: block;
+    }
+}
+
+@media (max-height: 1000px) {
+    #offrePresta .cards {
+        font-size: 1.35vh;
+    }
+    #offrePresta .bouton {
+        margin: 0px;
+    }
+}

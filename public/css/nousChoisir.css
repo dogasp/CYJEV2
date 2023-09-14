@@ -1,0 +1,91 @@
+#nousChoisir {
+    padding: 60px 0;
+    background: radial-gradient(circle, rgba(0,84,182,1) 0%, rgba(0,74,153,1) 74%);
+}
+
+#nousChoisir .section-header h3, #nousChoisir .section-header p {
+    color: #fff;
+}
+
+#nousChoisir .card {
+    background: #00458f;
+    border-color: #00458f;
+    border-radius: 10px;
+    margin: 0 15px;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    height: 100%;
+}
+
+/* no-gutters Class Rules */
+
+.row.no-gutters {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.row.no-gutters>[class^="col-"], .row.no-gutters>[class*=" col-"] {
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+@media (max-width: 991px) {
+    #nousChoisir .card {
+        margin: 0;
+    }
+}
+
+#nousChoisir .card:hover {
+    background: #003b7a;
+    border-color: #003b7a;
+}
+
+#nousChoisir .card i {
+    font-size: 48px;
+    padding-top: 15px;
+    color: #bfddfe;
+}
+
+#nousChoisir .card h5 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#nousChoisir .card p {
+    font-size: 15px;
+    color: #d8eafe;
+}
+
+#nousChoisir .card .readmore {
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    border-bottom: #00458f solid 2px;
+}
+
+#nousChoisir .card .readmore:hover {
+    border-bottom: #fff solid 2px;
+}
+
+#nousChoisir .counters {
+    padding-top: 40px;
+}
+
+#nousChoisir .counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    display: block;
+    color: #fff;
+}
+
+#nousChoisir .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #cce5ff;
+}

@@ -1,0 +1,49 @@
+#detailOffrePresta {
+    margin-left: 30%;
+}
+
+#detailOffrePresta .header {
+    padding-top: 120px;
+    padding-left: 5%;
+}
+
+#detailOffrePresta p {
+    width: 60%;
+    text-align: justify;
+}
+
+#detailOffrePresta h1 {
+    padding-top: 100px;
+    color: rgb(7, 93, 192);
+}
+
+#detailOffrePresta .nav {
+    display: block;
+    position: fixed;
+    top: 270px;
+    left: 5%;
+}
+
+#detailOffrePresta .nav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #556877;
+    display: block;
+}
+
+#detailOffrePresta .nav a:hover {
+    color: #2196F3;
+}
+
+@media (max-width: 1200px) {
+    #detailOffrePresta {
+        margin-left: 20%;
+    }
+    #detailOffrePresta p {
+        width: 70%;
+    }
+    #detailOffrePresta .nav {
+        display: none;
+    }
+}

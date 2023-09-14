@@ -1,0 +1,11 @@
+.swal-overlay{
+    background-color: rgba(0, 66, 138, 0.8);
+}
+
+.swal-button--confirm{
+    background-color: #004a99;
+}
+
+.swal-button--confirm:hover{
+    background-color: #3f6a99;
+}

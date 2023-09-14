@@ -1,0 +1,184 @@
+body,
+html {
+    width: 100%;
+}
+
+#equipe {
+    background: #fff;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+}
+
+#equipe .parallax {
+    background-image: url('../img/equipe.jpg');
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 100% 20%;
+    border-bottom-left-radius: 100% 20%;
+    margin-bottom: 20px;
+}
+
+#equipe h1 {
+    text-align: center;
+    background: #f1f1f1;
+    /*arriere plan sous le titre*/
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-size: 36px;
+}
+
+
+/*css de la timeline*/
+
+#equipe .timeline {
+    color: #fff;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: justify;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#equipe .timeline ul {
+    background: #f1f1f1;
+    /*couleur arrière plan*/
+    padding: 50px 0;
+    margin-bottom: 0px;
+    width: 100%
+}
+
+#equipe .timeline ul li div {
+    position: relative;
+    padding: 15px;
+    bottom: -10px;
+    width: 400px;
+    background: rgb(41 115 193);
+    /*couleur de la boite*/
+    border-radius: 20px;
+}
+
+#equipe time {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 1300px) {
+    #equipe .parallax {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #equipe .parallax {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /* .timeline ul li {
+        margin-left: 20px;
+    }
+
+    .timeline ul li div {
+        width: calc(100vw - 91px);
+    }
+
+   .timeline ul li.left div {
+        left: 45px;
+    }
+
+    .timeline ul li.left div::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #F45B69 transparent transparent;
+    }
+      */
+    #equipe .parallax {
+        display: none;
+    }
+
+    #equipe .section-header{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width: 903px) {
+    #equipe .timeline ul li div::before {
+        content: '';
+        position: absolute;
+        bottom: 17px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+    #equipe .timeline ul li.right div {
+        left: 45px;
+    }
+    #equipe .timeline ul li.right div::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent rgb(41 115 193) transparent transparent;
+        /*couleur flèche droite*/
+    }
+    #equipe .timeline ul li.left div {
+        left: -439px;
+    }
+    #equipe .timeline ul li.left div::before {
+        right: -15px;
+        border-width: 8px 0 8px 16px;
+        border-color: transparent transparent transparent rgb(41 115 193);
+        /*couleur flèche gauche*/
+    }
+    #equipe time {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    #equipe .timeline ul li {
+        list-style-type: none;
+        position: relative;
+        width: 6px;
+        margin: 0 auto;
+        padding-top: 50px;
+        background: rgb(147 187 232);
+        /*couleur de la ligne*/
+    }
+    #equipe .timeline ul li::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: rgba(0, 74, 153, 1);
+        /*couleur points*/
+    }
+}
+
+@media screen and (max-width: 902px) {
+    #equipe .timeline ul li div {
+        margin-bottom: 20px;
+        width: 70%;
+        margin-left: 90px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #equipe .section-header{
+        margin-left:50px;
+        margin-right:50px
+    }
+}

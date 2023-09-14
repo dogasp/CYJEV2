@@ -1,0 +1,215 @@
+#devis {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+#devis .section-header {
+    padding-bottom: 30px;
+    margin-top: 5%;
+}
+
+#devis .devis-about h3 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #007bff;
+}
+
+#devis .devis-about p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: #888;
+}
+
+#devis .social-links {
+    padding-bottom: 20px;
+}
+
+#devis .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #fff;
+    color: #007bff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid #007bff;
+}
+
+#devis .social-links a:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+#devis .info {
+    color: #283d50;
+    margin-left: 10%;
+}
+
+#devis .info i {
+    font-size: 32px;
+    color: #007bff;
+    float: left;
+    line-height: 1;
+}
+
+#devis .info p {
+    padding: 0 0 10px 36px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    #devis .info p {
+        padding: 0 0 0px 36px;
+        margin: 0;
+    }
+}
+#devis .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#devis .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+#devis .php-email-form .sent-message {
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+#devis .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+#devis .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+#devis .php-email-form input, #devis .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+#devis .php-email-form input::focus, #devis .php-email-form textarea::focus {
+    background-color: #007bff;
+}
+
+#devis .php-email-form input {
+    padding: 20px 15px;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    box-shadow: 11px 9px 13px -2px rgba(153,153,153,1);
+}
+
+#devis .php-email-form textarea {
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    box-shadow: 11px 9px 13px -2px rgba(153,153,153,1);
+
+}
+
+#devis .php-email-form button[type="submit"] {
+    background-image: linear-gradient(147deg, #007bff 0%, #00458f 74%);
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 30px;
+    color: #fff;
+    transition: 0.3s;
+    outline-style: none;
+    margin-top: 10px;
+
+}
+
+#devis .php-email-form button[type="submit"]:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px -2px rgba(153,153,153,1);
+
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#devis select {
+    display: none;
+  }
+
+#devis .nice-select {
+    box-shadow: 11px 9px 13px -2px rgba(153,153,153,1);
+    width: 100%;
+  }
+
+#devis .object{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+}
+
+#devis .nice-select li {
+    transition: 0s;
+}
+#devis .nice-select li:hover {
+    background: linear-gradient(147deg, rgba(0,123,255,1) 0%, rgba(0,69,143,1) 74%);
+    color : white;
+}
+
+#devis .map{
+    margin-top: 20px;
+}
+
+#devis .contact{
+    top: 10px;
+}
